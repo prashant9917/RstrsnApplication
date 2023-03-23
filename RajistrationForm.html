@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajistration Form</title>
+</head>
+<style>
+    body {
+        background-color: aqua;
+        margin: 5px;
+        padding: 5px;
+    }
+</style>
+
+<body>
+    <fieldset>
+        <legend><b>Rajistration Form</b> </legend>
+        <p>Enter your details below</p>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="abc123@gmail.com" required>
+        <br>
+        <br>
+        <label for="email">Password:</label>
+        <input type="password" name="password" id="password" required>
+        <p><i><b>!Type a complex password with 8-20 characters.</b></i></p>
+        <br> Phone No:
+        <input type="number" name="number" id="number" placeholder="+91 Phone Nomber" required>
+        <hr>
+        <h3><i><b>Enter Your Profession</b></i></h3>
+        <b>Profession:</b><input type="radio" name="profession" id="sname" value="Student">Student
+        <input type="radio" name="profession" id="tname" value="teacher">Teacher
+        <input type="radio" name="profession" id="Dname" value="developer">developer
+        <br>
+        <br> Choose the stage if you are(Student)
+        <select>
+            <option value="first">First Primary</option>
+            <option value="secound">Secound Primary</option>
+            <option value="third">Third Primary</option>
+     </select>
+        <hr> Date Of Birth:
+        <input type="date" name="d.o.b" id="d.o.b">
+        <hr> Feedback:
+        <br>
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+        <hr>
+        <input type="submit" value="Submit" style="background-color:rgb(190, 148, 10)">
+        <input type="reset" value="Reset" style="background-color:rgb(190, 148, 10)">
+
+    </fieldset>
+</body>
+
+</html>
